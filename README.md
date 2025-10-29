@@ -1,6 +1,6 @@
 ## Findish API
 
-Findish API is a **Node.js-powered backend** for the **Findish** app — a smart recipe generator that helps users make the most of ingredients they already have and reduce food waste.
+Findish API is a fully functional **Node.js-powered backend** for the app concept **Findish** app — a smart recipe generator that helps users make the most of ingredients they already have and reduce food waste.
 
 ---
 
