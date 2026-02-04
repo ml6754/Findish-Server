@@ -2,35 +2,6 @@
 
 Findish API is a fully functional **Node.js-powered backend** for the app concept called **Findish** — a smart recipe generator that helps users make the most of ingredients they already have and reduce food waste.
 
----
-
-### Key Features
-
-#### AI-Generated Recipes
-
-* Integrates with LLMS to create innovative, ingredient-focused recipes.
-* Suggests alternatives if certain ingredients are missing or unwanted.
-
-#### Smart Expiration Alerts
-
-* Notifies users when ingredients are nearing expiration.
-* Recommends recipes based on soon-to-expire items to prevent waste.
-
-#### Fast & Scalable
-
-* Built on **Express.js** for a lightweight and efficient REST API.
-* **Redis** is used for caching and performance optimization.
-
-#### Real-Time Fridge Sync
-
-* Automatically adjusts inventory as items are used in recipes.
-
-#### Simple Deployment
-
-* Fully **Dockerized** for easy setup and horizontal scaling.
-
----
-
 ### Getting Started
 
 #### Prerequisites
@@ -94,3 +65,5 @@ docker exec -it redis redis-cli LRANGE LogKey 0 10
 ```
 
 A list of Redis log keys is available [here](./app/redis/RedisLogKeys.md).
+
+More
